@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_food"
+        android:icon="@drawable/material_symbols__award_meal_rounded"
+        android:title="@string/title_food" />
+
+    <item
+        android:id="@+id/navigation_workout"
+        android:icon="@drawable/material_symbols__exercise"
+        android:title="@string/title_workout" />
+
+    <item
+        android:id="@+id/navigation_community"
+        android:icon="@drawable/fluent__people_community_16_filled"
+        android:title="@string/title_community" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/fluent__person_20_filled"
+        android:title="@string/title_profile" />
+
+</menu>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ProtrackApp</string>
+    <string name="title_home">Home</string>
+    <string name="home_subtitle">Today\'s \nTotal Steps</string>
+    <string name="title_food">Food</string>
+    <string name="title_workout">Workout</string>
+    <string name="title_community">Community</string>
+    <string name="title_profile">Profile</string>
+
+
+    <string name="today_s_tot">
+        Today\u00e2\u0080\u0099s \nTotal Steps
+    </string>
+
+<!--    Onboarding navigation-->
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_prev">Prev</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_skip">Skip</string>
+</resources>

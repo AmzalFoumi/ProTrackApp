@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Fill color for unselected dot -->
+    <solid android:color="@color/purple_200" />
+
+    <!-- Size of the dot -->
+    <size
+        android:width="5dp"
+        android:height="5dp" />
+
+    <!-- Make it circular -->
+    <corners android:radius="100dp" />
+</shape>

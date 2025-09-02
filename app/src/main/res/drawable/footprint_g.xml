@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="380dp"
+    android:height="480dp"
+    android:viewportWidth="380"
+    android:viewportHeight="480"
+    >
+    <!-- drawable/footprint_g.xml -->
+
+
+        <group>
+            <clip-path
+                android:pathData="M12 0H368C374.627 0 380 5.37258 380 12V468C380 474.627 374.627 480 368 480H12C5.37258 480 0 474.627 0 468V12C0 5.37258 5.37258 0 12 0Z"
+                />
+            <path
+                android:pathData="M0 0V480H380V0"
+                android:fillColor="#10FFFFFF"
+                />
+        </group>
+
+</vector>

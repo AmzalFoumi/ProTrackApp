@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="24dp"
+    android:layout_gravity="center"
+    tools:context=".ui.home.HomeFragment">
+
+    <!--
+    Font family: Poppins
+    Line height: 48sp
+    -->
+
+
+    <TextView
+        android:id="@+id/home_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_subtitle"
+
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/footprint_g"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:background="@drawable/footprint_g"
+        android:backgroundTint="?attr/colorSecondaryVariant"
+        android:elevation="4dp" />
+
+    <RelativeLayout
+        android:id="@+id/home_quote_of_day"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:background="@drawable/home_quote_of_day"
+        android:clipToOutline="true"
+        android:elevation="4dp" />
+
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/home_highlight"-->
+    <!--        android:layout_width="380dp"-->
+    <!--        android:layout_height="469dp"-->
+    <!--        android:layout_marginStart="16dp"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:layout_marginEnd="16dp"-->
+    <!--        android:orientation="vertical"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/home_subtitle"></LinearLayout>-->
+</LinearLayout>
