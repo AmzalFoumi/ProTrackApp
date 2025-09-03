@@ -3,7 +3,7 @@
     android:shape="oval">
 
     <!-- Fill color for unselected dot -->
-    <solid android:color="@color/primary_900" />
+    <solid android:color="?attr/colorControlNormal" />
 
     <!-- Size of the dot -->
     <size

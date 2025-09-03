@@ -40,17 +40,7 @@
       app:layout_constraintStart_toStartOf="parent">
 
 
-<!--    <Button-->
-<!--        android:id="@+id/btnPrev"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:background="@drawable/button_rounded_background"-->
-<!--        android:backgroundTint="?attr/colorSecondaryVariant"-->
-<!--        android:text="@string/onboarding_prev"-->
-<!--        android:visibility="gone"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnPrev"
@@ -82,18 +72,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-<!--    <Button-->
-<!--        android:id="@+id/btnNext"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:background="@drawable/button_rounded_background"-->
-<!--        android:backgroundTint="?attr/colorSecondaryVariant"-->
-<!--        android:gravity="center"-->
-<!--        android:text="@string/onboarding_next"-->
-<!--        android:textAlignment="center"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnNext"

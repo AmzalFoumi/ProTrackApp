@@ -11,6 +11,7 @@ import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2
 import com.amzal.protrackapp.MainActivity
 import com.amzal.protrackapp.R
+import com.amzal.protrackapp.SignUpActivity
 import com.google.android.material.button.MaterialButton
 
 class OnboardingActivity : AppCompatActivity() {
@@ -35,9 +36,21 @@ class OnboardingActivity : AppCompatActivity() {
 
         // Setup pages
         val items = listOf(
-            OnboardingItem(R.drawable.brocollli, "Welcome", "This is page 1"),
-            OnboardingItem(R.drawable.ic_launcher_foreground, "Track Your Progress", "This is page 2"),
-            OnboardingItem(R.drawable.ic_launcher_foreground, "Get Started", "This is page 3")
+            OnboardingItem(
+                R.drawable.brocollli,
+                getString(R.string.onboarding_title_1),
+                getString(R.string.onboarding_description_1)
+            ),
+            OnboardingItem(
+                R.drawable.bodybuidler,
+                getString(R.string.onboarding_title_2),
+                getString(R.string.onboarding_description_2)
+            ),
+            OnboardingItem(
+                R.drawable.dumbell,
+                getString(R.string.onboarding_title_3),
+                getString(R.string.onboarding_description_3)
+            )
         )
 
         adapter = OnboardingAdapter(items)
@@ -76,7 +89,8 @@ class OnboardingActivity : AppCompatActivity() {
         for (i in 0 until count) {
             val dot = ImageView(this)
             dot.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.dot_unselected))
-            val params = LinearLayout.LayoutParams(24, 24)
+            val params = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT)
             params.setMargins(8, 0, 8, 0)
             dotsLayout.addView(dot, params)
         }
@@ -106,7 +120,7 @@ class OnboardingActivity : AppCompatActivity() {
     }
 
     private fun goToMain() {
-        startActivity(Intent(this, MainActivity::class.java))
+        startActivity(Intent(this, SignUpActivity::class.java))
         finish()
     }
 }

@@ -12,9 +12,18 @@
         Today\u00e2\u0080\u0099s \nTotal Steps
     </string>
 
-<!--    Onboarding navigation-->
+    <!--    Onboarding navigation-->
     <string name="onboarding_next">Next</string>
-    <string name="onboarding_prev">Prev</string>
+    <string name="onboarding_prev"> </string>
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_skip">Skip</string>
+
+    <string name="onboarding_title_1">Small Changes, Big Impact</string>
+    <string name="onboarding_description_1">Discover how your everyday choices add up to meaningful change with ProTrack meal tracking</string>
+
+    <string name="onboarding_title_2">Track, Learn, Improve</string>
+    <string name="onboarding_description_2">Monitor your health and build better habits</string>
+
+    <string name="onboarding_title_3">Join the Fit Community</string>
+    <string name="onboarding_description_3">Take challenges, earn points, and grow together</string>
 </resources>

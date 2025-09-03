@@ -17,7 +17,8 @@
         android:layout_marginTop="24dp"
         android:text="Title"
         android:textSize="22sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        style="@style/ProTrack.TextAppearance.Headline"/>
 
     <ImageView
         android:id="@+id/imageOnboarding"
@@ -36,5 +37,6 @@
         android:paddingHorizontal="16dp"
         android:text="Description goes here"
         android:textAlignment="viewStart"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        style="@style/ProTrack.TextAppearance.Body"/>
 </LinearLayout>
