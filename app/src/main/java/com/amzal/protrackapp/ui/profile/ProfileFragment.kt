@@ -1,5 +1,6 @@
 package com.amzal.protrackapp.ui.profile
 
+import android.content.Intent
 import androidx.fragment.app.viewModels
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.amzal.protrackapp.R
+import com.amzal.protrackapp.SignUpActivity
 
 import com.amzal.protrackapp.databinding.FragmentProfileBinding
 
@@ -27,7 +29,20 @@ class ProfileFragment : Fragment() {
         _binding = FragmentProfileBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
+        setUpLogoutButton()
+
         return root
+    }
+
+
+    private fun setUpLogoutButton() {
+        binding.btnLogout.setOnClickListener {
+            val intent = Intent(requireContext(), SignUpActivity::class.java)
+
+            //Preventing go back
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
+        }
     }
 
     override fun onDestroyView() {
