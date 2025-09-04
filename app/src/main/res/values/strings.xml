@@ -6,24 +6,44 @@
     <string name="title_workout">Workout</string>
     <string name="title_community">Community</string>
     <string name="title_profile">Profile</string>
-
-
-    <string name="today_s_tot">
-        Today\u00e2\u0080\u0099s \nTotal Steps
-    </string>
-
-    <!--    Onboarding navigation-->
+    <string name="today_s_tot">Today Total Steps</string>
     <string name="onboarding_next">Next</string>
     <string name="onboarding_prev"> </string>
     <string name="onboarding_get_started">Get Started</string>
     <string name="onboarding_skip">Skip</string>
-
     <string name="onboarding_title_1">Small Changes, Big Impact</string>
     <string name="onboarding_description_1">Discover how your everyday choices add up to meaningful change with ProTrack meal tracking</string>
-
     <string name="onboarding_title_2">Track, Learn, Improve</string>
     <string name="onboarding_description_2">Monitor your health and build better habits</string>
-
     <string name="onboarding_title_3">Join the Fit Community</string>
     <string name="onboarding_description_3">Take challenges, earn points, and grow together</string>
+    <string name="food_title_daily_calories">Daily Calories</string>
+    <string name="calories">Calories</string>
+    <string name="alien_icon_desc">Alien icon</string>
+    <string name="greeting_hello_alien">Hello Alien!</string>
+    <string name="heart_rate_desc">Heart rate monitor</string>
+    <string name="burn_it_off">Burn it off!!!</string>
+    <string name="calories_burn_day">Calories burn in a day</string>
+    <string name="completion">Completion</string>
+    <string name="completion_percentage">65.02 %</string>
+    <string name="calories_count">350</string>
+    <string name="burned">Kcal Burned</string>
+    <string name="kcal">kcal</string>
+    <string name="character_desc">Workout character illustration</string>
+    <string name="workout_schedule">Workout Schedule</string>
+    <string name="day_s">S</string>
+    <string name="day_m">M</string>
+    <string name="day_t">T</string>
+    <string name="day_w">W</string>
+    <string name="day_t2">T</string>
+    <string name="day_f">F</string>
+    <string name="day_s2">S</string>
+    <string name="muscular_workout">Muscular Workout</string>
+    <string name="upper_body_low">Upper Body - Low</string>
+    <string name="muscular_workout_desc">Muscular workout background</string>
+    <string name="power_yoga_workout">Power Yoga Workout</string>
+    <string name="full_body_medium">Full Body - Medium</string>
+    <string name="yoga_workout_desc">Yoga workout background</string>
+    <string name="progress_75">75%</string>
+    <string name="add_workout">Add Workout</string>
 </resources>
