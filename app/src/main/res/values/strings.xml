@@ -46,4 +46,13 @@
     <string name="yoga_workout_desc">Yoga workout background</string>
     <string name="progress_75">75%</string>
     <string name="add_workout">Add Workout</string>
+    <string name="title_top_friends">Top Friends</string>
+    <string name="top_friends_subtitle">Based on your activity</string>
+    <string name="add_workout_button">Add a Workout</string>
+    <string name="friend_score">1200 pts</string>
+    <string name="username_placeholder">Alien User</string>
+    <string name="friends_list_header">All Friends</string>
+    <string name="profile_pic_desc">Profile picture</string>
+    <string name="add_friend_button">Add Friend</string>
+    <string name="quote_header">Quote of the Day!</string>
 </resources>
