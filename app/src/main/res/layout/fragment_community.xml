@@ -73,7 +73,7 @@
                             android:layout_height="match_parent"
                             android:contentDescription="@string/profile_pic_desc"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/alien_profile_pic_1" />
+                            android:src="@drawable/jonathan" />
                     </com.google.android.material.card.MaterialCardView>
 
                     <TextView
@@ -83,7 +83,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:gravity="center"
-                        android:text="Razeen"
+                        android:text="Jonathan"
                         android:textStyle="bold" />
 
                     <TextView
@@ -91,21 +91,21 @@
                         style="@style/ProTrack.TextAppearance.Body"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1100pts"
+                        android:text="1100 pts"
                         android:textColor="?attr/colorSecondary"
                         android:textSize="14sp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_height="180dp"
+                    android:layout_weight="2"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <com.google.android.material.card.MaterialCardView
-                        android:layout_width="@dimen/profile_image_size_large"
-                        android:layout_height="@dimen/profile_image_size_large"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
                         app:cardCornerRadius="@dimen/profile_image_size_large"
                         app:cardElevation="0dp">
 
@@ -119,12 +119,12 @@
 
                     <TextView
                         android:id="@+id/text_friend2_name"
-                        style="@style/ProTrack.TextAppearance.Body"
+                        style="@style/ProTrack.TextAppearance.Headline"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:gravity="center"
-                        android:text="@string/username_placeholder"
+                        android:text="Amzal"
                         android:textStyle="bold" />
 
                     <TextView
@@ -132,7 +132,7 @@
                         style="@style/ProTrack.TextAppearance.Body"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/friend_score"
+                        android:text="1244 pts"
                         android:textColor="?attr/colorSecondary"
                         android:textSize="14sp" />
                 </LinearLayout>
@@ -155,7 +155,7 @@
                             android:layout_height="match_parent"
                             android:contentDescription="@string/profile_pic_desc"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/alien_profile_pic_1" />
+                            android:src="@drawable/dustin" />
                     </com.google.android.material.card.MaterialCardView>
 
                     <TextView
@@ -165,7 +165,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:gravity="center"
-                        android:text="@string/username_placeholder"
+                        android:text="Dustin"
                         android:textStyle="bold" />
 
                     <TextView
@@ -173,7 +173,7 @@
                         style="@style/ProTrack.TextAppearance.Body"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/friend_score"
+                        android:text="1182 pts"
                         android:textColor="?attr/colorSecondary"
                         android:textSize="14sp" />
                 </LinearLayout>
@@ -232,15 +232,15 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    style="@style/ProTrack.TextAppearance.Body"
-                    android:text="@string/username_placeholder"
+                    style="@style/ProTrack.TextAppearance.Headline"
+                    android:text="You"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/ProTrack.TextAppearance.Body"
-                    android:text="@string/friend_score"
+                    android:text="1244"
                     android:textColor="?attr/colorSecondary" />
             </LinearLayout>
 
@@ -262,7 +262,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/alien_profile_pic_1"
+                        android:src="@drawable/dustin"
                         android:contentDescription="@string/profile_pic_desc" />
                 </com.google.android.material.card.MaterialCardView>
 
@@ -271,14 +271,128 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     style="@style/ProTrack.TextAppearance.Body"
-                    android:text="@string/username_placeholder"
+                    android:text="Dustin"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/ProTrack.TextAppearance.Body"
-                    android:text="@string/friend_score"
+                    android:text="1182"
+                    android:textColor="?attr/colorSecondary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="8dp">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="@dimen/profile_image_size_small"
+                    android:layout_height="@dimen/profile_image_size_small"
+                    app:cardCornerRadius="@dimen/profile_image_size_small"
+                    app:cardElevation="0dp"
+                    android:layout_marginEnd="16dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/jonathan"
+                        android:contentDescription="@string/profile_pic_desc" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/ProTrack.TextAppearance.Body"
+                    android:text="Jonathan"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/ProTrack.TextAppearance.Body"
+                    android:text="1100"
+                    android:textColor="?attr/colorSecondary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="8dp">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="@dimen/profile_image_size_small"
+                    android:layout_height="@dimen/profile_image_size_small"
+                    app:cardCornerRadius="@dimen/profile_image_size_small"
+                    app:cardElevation="0dp"
+                    android:layout_marginEnd="16dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/watani"
+                        android:contentDescription="@string/profile_pic_desc" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/ProTrack.TextAppearance.Body"
+                    android:text="Watani"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/ProTrack.TextAppearance.Body"
+                    android:text="1099"
+                    android:textColor="?attr/colorSecondary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingVertical="8dp">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="@dimen/profile_image_size_small"
+                    android:layout_height="@dimen/profile_image_size_small"
+                    app:cardCornerRadius="@dimen/profile_image_size_small"
+                    app:cardElevation="0dp"
+                    android:layout_marginEnd="16dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/john"
+                        android:contentDescription="@string/profile_pic_desc" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/ProTrack.TextAppearance.Body"
+                    android:text="John"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/ProTrack.TextAppearance.Body"
+                    android:text="1050"
                     android:textColor="?attr/colorSecondary" />
             </LinearLayout>
         </LinearLayout>
